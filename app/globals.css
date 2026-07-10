@@ -14,6 +14,41 @@ overflow-x:hidden;
 
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6;
+}
+
+/* Selection */
+
+::selection {
+    background: #2563eb;
+    color: white;
+}
+
+/* Smooth transition */
+
+* {
+    transition:
+        border-color .25s ease,
+        background-color .25s ease,
+        color .25s ease;
+}
+
 /* @custom-variant dark (&:is(.dark *));
 
 @theme inline {
