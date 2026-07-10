@@ -20,14 +20,13 @@ export default function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-8 text-slate-300">
-            Страстно се интересувам от разработка на софтуер, изкуствен интелект
-            и съвременно образование. Целта ми е да вдъхновявам учениците чрез
-            технологии и практическо обучение.
+            Вярвам, че най-добрият начин учениците да обикнат технологиите е
+            чрез практика, проекти и творчество.
           </p>
 
           <div className="mt-12 flex flex-wrap gap-5">
             <button className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:scale-105 hover:bg-blue-500">
-              Портфолио
+              Научи повече
             </button>
 
             <button className="rounded-xl border border-white/20 px-8 py-4 text-white transition hover:border-blue-400">
