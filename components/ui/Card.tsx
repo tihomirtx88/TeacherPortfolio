@@ -10,6 +10,7 @@ export default function Card({ children }: CardProps) {
       className="
       rounded-3xl
       border
+      h-full
       border-white/10
       bg-slate-900/60
       p-8

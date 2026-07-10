@@ -7,74 +7,175 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-slate-950">
       {/* Background */}
 
-      <div className="absolute inset-0">
-        <div className="absolute left-[-250px] top-[-250px] h-[700px] w-[700px] rounded-full bg-blue-600/20 blur-[180px]" />
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -left-56 -top-56 h-[650px] w-[650px] rounded-full bg-blue-600/20 blur-[180px]" />
 
-        <div className="absolute bottom-[-250px] right-[-250px] h-[650px] w-[650px] rounded-full bg-cyan-400/10 blur-[180px]" />
+        <div className="absolute -right-52 bottom-0 h-[550px] w-[550px] rounded-full bg-cyan-500/10 blur-[170px]" />
       </div>
 
-      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 lg:px-8">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 pt-24 pb-20">
         <div className="grid w-full items-center gap-20 lg:grid-cols-2">
           {/* LEFT */}
 
-          <div>
+          <div className="order-2 lg:order-1">
             <p className="mb-6 text-sm font-semibold uppercase tracking-[8px] text-blue-400">
-              Бъдещ учител
+              Бъдещ учител по ИТ
             </p>
 
-            <h1 className="text-5xl font-black leading-tight text-white md:text-7xl">
+            <h1
+              className="
+                text-4xl
+                font-black
+                leading-tight
+                text-white
+
+                sm:text-5xl
+                lg:text-7xl
+              "
+            >
               Тихомир
               <br />
               Желязков
             </h1>
 
-            <p className="mt-8 max-w-xl text-lg leading-9 text-slate-300">
-              Студент по Информатика и информационни технологии, който вярва, че
-              най-добрият начин учениците да усвоят технологиите е чрез
-              практика, любопитство и създаване на реални проекти.
+            <p
+              className="
+                mt-8
+                max-w-xl
+                text-base
+                leading-8
+                text-slate-300
+
+                sm:text-lg
+                sm:leading-9
+              "
+            >
+              Студент по специалност
+              <strong> „Информатика и информационни технологии“</strong>.
+              Интересувам се от разработка на софтуер, уеб технологии и
+              изкуствен интелект. Вярвам, че учениците учат най-добре, когато
+              сами създават проекти.
             </p>
 
-            <div className="mt-12 flex flex-wrap gap-5">
+            <div
+              className="
+                mt-12
+                flex
+                flex-wrap
+                gap-4
+              "
+            >
               <a
                 href="#projects"
-                className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition duration-300 hover:-translate-y-1 hover:bg-blue-500"
+                className="
+                rounded-xl
+                bg-blue-600
+                px-8
+                py-4
+                font-semibold
+                text-white
+                transition
+                duration-300
+                hover:-translate-y-1
+                hover:bg-blue-500
+                "
               >
                 Дипломен проект
               </a>
 
               <a
                 href="#about"
-                className="rounded-xl border border-white/10 px-8 py-4 text-white transition duration-300 hover:border-blue-400"
+                className="
+                rounded-xl
+                border
+                border-white/10
+                px-8
+                py-4
+                text-white
+                transition
+                duration-300
+                hover:border-blue-500
+                "
               >
-                Научи повече
+                За мен
               </a>
             </div>
           </div>
 
           {/* RIGHT */}
 
-          <div className="flex justify-center">
+          <div
+            className="
+            order-1
+            flex
+            justify-center
+
+            lg:order-2
+            "
+          >
             <div className="relative">
-              <div className="absolute inset-0 rounded-full bg-blue-500/40 blur-[120px]" />
+              <div
+                className="
+                absolute
+                inset-0
+                rounded-full
+                bg-blue-500/30
+                blur-[120px]
+                "
+              />
 
               <div
                 className="
                 relative
                 flex
-                h-[420px]
-                w-[420px]
+
+                h-[260px]
+                w-[260px]
+
                 items-center
                 justify-center
+
                 rounded-full
+
                 border
                 border-white/10
+
                 bg-gradient-to-br
                 from-slate-900
                 to-slate-800
+
                 shadow-2xl
+
+                sm:h-[340px]
+                sm:w-[340px]
+
+                lg:h-[430px]
+                lg:w-[430px]
                 "
               >
-                <span className="text-8xl font-black text-white">TZ</span>
+                {/* Тук по-късно ще сложим твоя снимка */}
+
+                <span
+                  className="
+                  text-6xl
+                  font-black
+                  text-white
+
+                  lg:text-8xl
+                  "
+                >
+                  TZ
+                </span>
+                {/* <img
+    src="/profile.png"
+    alt="Тихомир Желязков"
+    className="
+    h-full
+    w-full
+    rounded-full
+    object-cover
+    "
+/> */}
               </div>
             </div>
           </div>
@@ -83,8 +184,16 @@ export default function Hero() {
 
       {/* Scroll */}
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-        <ArrowDown size={28} className="text-slate-400" />
+      <div
+        className="
+        absolute
+        bottom-8
+        left-1/2
+        -translate-x-1/2
+        animate-bounce
+        "
+      >
+        <ArrowDown size={28} className="text-slate-500" />
       </div>
     </section>
   );
