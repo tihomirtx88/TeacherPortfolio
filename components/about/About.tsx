@@ -15,48 +15,56 @@ export default function About() {
 
       <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
         <Card>
-          <GraduationCap className="mb-6 text-blue-400" size={42} />
+          <div className="flex h-full flex-col">
+            <GraduationCap className="mb-6 text-blue-400" size={42} />
 
-          <h3 className="mb-4 text-2xl font-bold text-white">Образование</h3>
+            <h3 className="mb-4 text-2xl font-bold text-white">Образование</h3>
 
-          <p className="leading-8 text-slate-400">
-            Студент в Шуменски университет, специалност
-            <br />
-            <strong>Информатика и информационни технологии</strong>
-          </p>
+            <p className="leading-8 text-slate-400">
+              Студент в Шуменски университет, специалност
+              <br />
+              <strong>Информатика и информационни технологии</strong>
+            </p>
+          </div>
         </Card>
 
         <Card>
-          <Laptop className="mb-6 text-blue-400" size={42} />
+          <div className="flex h-full flex-col">
+            <Laptop className="mb-6 text-blue-400" size={42} />
 
-          <h3 className="mb-4 text-2xl font-bold text-white">
-            Практически опит
-          </h3>
+            <h3 className="mb-4 text-2xl font-bold text-white">
+              Практически опит
+            </h3>
 
-          <p className="leading-8 text-slate-400">
-            Front-end, Back-end, REST API, бази данни, AI приложения.
-          </p>
+            <p className="leading-8 text-slate-400">
+              Front-end, Back-end, REST API, бази данни, AI приложения.
+            </p>
+          </div>
         </Card>
 
         <Card>
-          <BookOpen className="mb-6 text-blue-400" size={42} />
+          <div className="flex h-full flex-col">
+            <BookOpen className="mb-6 text-blue-400" size={42} />
 
-          <h3 className="mb-4 text-2xl font-bold text-white">Самообучение</h3>
+            <h3 className="mb-4 text-2xl font-bold text-white">Самообучение</h3>
 
-          <p className="leading-8 text-slate-400">
-            SoftUni, Udemy, самостоятелно обучение, практически проекти.
-          </p>
+            <p className="leading-8 text-slate-400">
+              SoftUni, Udemy, самостоятелно обучение, практически проекти.
+            </p>
+          </div>
         </Card>
 
         <Card>
-          <Target className="mb-6 text-blue-400" size={42} />
+          <div className="flex h-full flex-col">
+            <Target className="mb-6 text-blue-400" size={42} />
 
-          <h3 className="mb-4 text-2xl font-bold text-white">Цел</h3>
+            <h3 className="mb-4 text-2xl font-bold text-white">Цел</h3>
 
-          <p className="leading-8 text-slate-400">
-            Да вдъхновя учениците да развиват логическо мислене, креативност и
-            практически умения.
-          </p>
+            <p className="leading-8 text-slate-400">
+              Да вдъхновя учениците да развиват логическо мислене, креативност и
+              практически умения.
+            </p>
+          </div>
         </Card>
       </div>
     </Section>
