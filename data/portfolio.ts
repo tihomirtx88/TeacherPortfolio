@@ -92,6 +92,13 @@ export const timeline = [
   },
 
   {
+    year: "2023 - 2024",
+    title: "FrontEndenginer VISTE",
+    description:
+      "Придобих опит като FrontEnd инжинер в реални E-comerce прокети базирани на PHP, а именно OpenCart, Prestashop, Wordpress. Не на последно място комуникация с клиенти и разбиране на техбните желания.",
+  },
+
+  {
     year: "2025",
     title: "JYSK България",
     description:
@@ -101,8 +108,7 @@ export const timeline = [
   {
     year: "2025 - сега",
     title: "Шуменски университет",
-    description:
-      "Специалност 'Информатика и информационни технологии'.",
+    description: "Специалност 'Информатика и информационни технологии'.",
   },
 
   {
@@ -115,7 +121,43 @@ export const timeline = [
   {
     year: "2026",
     title: "Следваща цел",
-    description:
-      "Учител по информационни технологии и информатика.",
+    description: "Учител по информационни технологии и информатика.",
   },
 ];
+
+export const featuredProject = {
+  title: "Restaurant Management System",
+
+  subtitle: "Личен проект",
+
+  description:
+    "Цялостно Full Stack уеб приложение за управление на ресторант с автентикация, авторизация, база данни и административен панел.",
+
+  image: "/project.png",
+
+  demo: "https://ТУК-ЩЕ-ПОСТАВИШ-VERCEL",
+
+  github: "https://github.com/",
+
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Python",
+    "Flask",
+    "REST API",
+    "PostgreSQL",
+    "Supabase",
+  ],
+
+  features: [
+    "Регистрация и вход",
+    "Аутентикация",
+    "Оторизация",
+    "Административен панел",
+    "Търсене",
+    "CRUD операции",
+    "Responsive дизайн",
+    "Модерна архитектура",
+  ],
+};

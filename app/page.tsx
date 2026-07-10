@@ -1,7 +1,9 @@
 import About from "@/components/about/About";
 import Hero from "@/components/hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
+import FeaturedProject from "@/components/project/FeaturedProject";
 import Skills from "@/components/skills/Skills";
+import Timeline from "@/components/timeline/Timeline";
 
 export default function Home() {
    return (
@@ -15,6 +17,10 @@ export default function Home() {
       <About/>
       
       <Skills/>
+
+      <Timeline/>
+
+      <FeaturedProject />
 
     </main>
   );
