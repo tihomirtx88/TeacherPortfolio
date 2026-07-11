@@ -50,7 +50,9 @@ export default function Skills() {
                         duration-300
                         hover:scale-105
                         hover:border-blue-400
-                        hover:bg-blue-500/20
+                       hover:scale-105
+                      hover:bg-blue-500
+                      active:scale-95
                       "
                     >
                       {technology}

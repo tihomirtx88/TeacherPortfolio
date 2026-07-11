@@ -70,6 +70,8 @@ export default function Hero() {
                 className="
                 rounded-xl
                 bg-blue-600
+ring-8
+ring-blue-600/20
                 px-8
                 py-4
                 font-semibold
@@ -77,7 +79,9 @@ export default function Hero() {
                 transition
                 duration-300
                 hover:-translate-y-1
-                hover:bg-blue-500
+                hover:scale-105
+              hover:bg-blue-500
+              active:scale-95
                 "
               >
                 Дипломен проект
@@ -113,7 +117,7 @@ export default function Hero() {
             lg:order-2
             "
           >
-            <div className="relative">
+            <div className="relative float">
               <div
                 className="
                 absolute

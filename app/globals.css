@@ -2,51 +2,67 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-html{
-    scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
+body {
+  background: #020617;
 
-background:#020617;
-
-overflow-x:hidden;
-
+  overflow-x: hidden;
 }
 
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #020617;
+  background: #020617;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #2563eb;
-    border-radius: 999px;
+  background: #2563eb;
+  border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #3b82f6;
+  background: #3b82f6;
 }
 
 /* Selection */
 
 ::selection {
-    background: #2563eb;
-    color: white;
+  background: #2563eb;
+  color: white;
 }
 
 /* Smooth transition */
 
 * {
-    transition:
-        border-color .25s ease,
-        background-color .25s ease,
-        color .25s ease;
+  transition:
+    border-color 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float {
+  animation: floating 5s ease-in-out infinite;
 }
 
 /* @custom-variant dark (&:is(.dark *));

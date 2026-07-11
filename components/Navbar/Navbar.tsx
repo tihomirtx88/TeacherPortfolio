@@ -21,7 +21,8 @@ export default function Navbar() {
             <div className="mx-auto mt-4 flex max-w-7xl items-center justify-between rounded-2xl border border-white/10 bg-slate-900/60 px-6 py-4 backdrop-blur-2xl">
                 <Link
                     href="/"
-                    className="text-xl font-black tracking-widest text-white"
+                    className="text-xl font-black tracking-widest text-white transition-all duration-300 hover:text-blue-400
+hover:-translate-y-1"
                 >
                     TZ
                 </Link>
@@ -31,14 +32,17 @@ export default function Navbar() {
                         <a
                             key={link.title}
                             href={link.href}
-                            className="text-slate-300 transition hover:text-blue-400"
+                            className="text-slate-300 transition hover:text-blue-400 transition-all duration-300 hover:text-blue-400
+hover:-translate-y-1"
                         >
                             {link.title}
                         </a>
                     ))}
                 </nav>
 
-                <button className="hidden rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-500 lg:flex">
+                <button className="hidden rounded-xl bg-blue-600
+ring-8
+ring-blue-600/20 px-5 py-3 font-semibold text-white transition hover:bg-blue-500 lg:flex">
                     <Download className="mr-2" size={18} />
                     CV
                 </button>

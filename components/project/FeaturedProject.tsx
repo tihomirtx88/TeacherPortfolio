@@ -64,6 +64,8 @@ export default function FeaturedProject() {
               className="
                 rounded-xl
                 bg-blue-600
+ring-8
+ring-blue-600/20
                 px-8
                 py-4
                 font-semibold
@@ -90,7 +92,9 @@ export default function FeaturedProject() {
                 text-white
                 transition
                 duration-300
-                hover:border-blue-500
+                hover:scale-105
+                hover:bg-blue-500
+                active:scale-95
               "
             >
               GitHub

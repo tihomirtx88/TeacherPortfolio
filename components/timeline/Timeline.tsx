@@ -18,7 +18,9 @@ export default function Timeline() {
         <div className="space-y-16">
           {timeline.map((item) => (
             <div key={item.title} className="relative pl-20">
-              <div className="absolute left-0 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg shadow-blue-600/30">
+              <div className="absolute left-0 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-blue-600
+ring-8
+ring-blue-600/20 text-white shadow-lg shadow-blue-600/30">
                 ●
               </div>
 

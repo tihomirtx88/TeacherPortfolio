@@ -85,7 +85,9 @@ export default function Contact() {
           <div className="mt-10">
             <a
               href={profile.cv}
-              className="inline-flex rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-500"
+              className="inline-flex rounded-xl bg-blue-600
+ring-8
+ring-blue-600/20 px-8 py-4 font-semibold text-white transition hover:bg-blue-500"
             >
               Изтегли CV
             </a>
