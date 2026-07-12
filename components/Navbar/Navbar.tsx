@@ -40,13 +40,6 @@ hover:-translate-y-1"
                     ))}
                 </nav>
 
-                <button className="hidden rounded-xl bg-blue-600
-ring-8
-ring-blue-600/20 px-5 py-3 font-semibold text-white transition hover:bg-blue-500 lg:flex">
-                    <Download className="mr-2" size={18} />
-                    CV
-                </button>
-
                 <button
                     onClick={() => {
                         setIsOpen(prev => !prev);

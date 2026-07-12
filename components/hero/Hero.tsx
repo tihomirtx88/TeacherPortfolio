@@ -84,7 +84,7 @@ ring-blue-600/20
               active:scale-95
                 "
               >
-                Дипломен проект
+                Личен проект
               </a>
 
               <a
@@ -159,7 +159,7 @@ ring-blue-600/20
               >
                 {/* Тук по-късно ще сложим твоя снимка */}
 
-                <span
+                {/* <span
                   className="
                   text-6xl
                   font-black
@@ -169,9 +169,9 @@ ring-blue-600/20
                   "
                 >
                   TZ
-                </span>
-                {/* <img
-    src="/profile.png"
+                </span> */}
+                <img
+    src="/profile.jpg"
     alt="Тихомир Желязков"
     className="
     h-full
@@ -179,7 +179,7 @@ ring-blue-600/20
     rounded-full
     object-cover
     "
-/> */}
+/>
               </div>
             </div>
           </div>

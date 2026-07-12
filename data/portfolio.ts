@@ -24,7 +24,7 @@ export const profile = {
 
   linkedin: "https://www.linkedin.com/feed/",
 
-  project: "https://",
+  project: "https://green-hotel.vercel.app",
 
   cv: "/cv.pdf",
 };
@@ -93,16 +93,16 @@ export const timeline = [
 
   {
     year: "2023 - 2024",
-    title: "FrontEndenginer VISTE",
+    title: "FrontEnd Engineer VISTE",
     description:
-      "Придобих опит като FrontEnd инжинер в реални E-comerce прокети базирани на PHP, а именно OpenCart, Prestashop, Wordpress. Не на последно място комуникация с клиенти и разбиране на техбните желания.",
+      "Придобих опит като FrontEnd инженер в реални E-comerce проекти базирани на PHP, а именно OpenCart, Prestashop, Wordpress. Не на последно място комуникация с клиенти и разбиране на техните желания и изпълнението им.",
   },
 
   {
     year: "2025",
     title: "JYSK България",
     description:
-      "Работя като консултант продажби, като едновременно с това уча редовно в университета.",
+      "Работя като консултант продажби, като едновременно с това уча редовно в Шуменски Университет Епископ.К Преславски.",
   },
 
   {
@@ -126,27 +126,22 @@ export const timeline = [
 ];
 
 export const featuredProject = {
-  title: "Restaurant Management System",
+  title: "Green Hotel",
 
   subtitle: "Личен проект",
 
   description:
-    "Цялостно Full Stack уеб приложение за управление на ресторант с автентикация, авторизация, база данни и административен панел.",
+    "Цялостно Full Stack уеб приложение за букване на идеалната стая или апартамент, релакс сред природата.",
 
-  image: "/project.png",
+  image: "/logo.png",
 
-  demo: "https://ТУК-ЩЕ-ПОСТАВИШ-VERCEL",
+  demo: "https://green-hotel.vercel.app",
 
-  github: "https://github.com/",
+  github: "https://github.com/tihomirtx88/GreenHotel",
 
   technologies: [
     "Next.js",
-    "TypeScript",
     "Tailwind CSS",
-    "Python",
-    "Flask",
-    "REST API",
-    "PostgreSQL",
     "Supabase",
   ],
 

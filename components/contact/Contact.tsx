@@ -49,7 +49,7 @@ export default function Contact() {
             <ExternalLink className="text-blue-400" size={28} />
 
             <div>
-              <h3 className="font-semibold text-white">Дипломен проект</h3>
+              <h3 className="font-semibold text-white">Личен проект</h3>
 
               <p className="text-slate-400">Онлайн демонстрация</p>
             </div>
@@ -82,16 +82,7 @@ export default function Contact() {
             мислене и създаване на реални проекти.
           </p>
 
-          <div className="mt-10">
-            <a
-              href={profile.cv}
-              className="inline-flex rounded-xl bg-blue-600
-ring-8
-ring-blue-600/20 px-8 py-4 font-semibold text-white transition hover:bg-blue-500"
-            >
-              Изтегли CV
-            </a>
-          </div>
+ 
         </div>
       </div>
     </Section>

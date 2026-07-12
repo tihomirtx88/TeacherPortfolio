@@ -8,7 +8,7 @@ export default function FeaturedProject() {
   return (
     <Section id="projects">
       <SectionTitle
-        subtitle="Дипломен проект"
+        subtitle="Личен проект"
         title={featuredProject.title}
         description={featuredProject.description}
       />
