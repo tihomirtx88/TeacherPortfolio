@@ -37,7 +37,7 @@ export default function About() {
             </h3>
 
             <p className="leading-8 text-slate-400">
-              Front-end, Back-end, REST API, бази данни, AI приложения.
+              Front-end, Back-end, REST API, бази данни.
             </p>
           </div>
         </Card>
